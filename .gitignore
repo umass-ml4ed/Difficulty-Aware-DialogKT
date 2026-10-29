@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Runtime artifacts
+saved_models/
+logs/*.log
+logs/*.csv
+wandb/
+
+# Generated evaluation artifacts (keep the checked-in examples)
+results/*.tmp
